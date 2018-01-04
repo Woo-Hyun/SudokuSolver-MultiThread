@@ -5,7 +5,7 @@ using namespace std;
 
 class BoardMaker{
 private:
-	int** sudoku_board = nullptr;
+	int** sudoku_board;
 public:
 	BoardMaker() noexcept;
 	~BoardMaker() noexcept;

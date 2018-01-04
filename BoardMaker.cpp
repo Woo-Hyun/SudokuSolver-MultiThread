@@ -13,8 +13,6 @@ BoardMaker::~BoardMaker() noexcept{
 	for(auto i = 0; i < 9; ++i)
 		delete[] sudoku_board[i];
 	delete[] sudoku_board;
-
-	cout << "This board is destructed!!" << endl;
 }
 
 void BoardMaker::FileToBoard(const string& path) const {
