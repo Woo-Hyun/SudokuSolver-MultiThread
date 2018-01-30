@@ -1,6 +1,5 @@
 # SudokuSolver-MultiThread
 
-/*************************************************************
  * This is code written by Woo Hyun.
  * SoongSil University, Smart Systems Software department.
  * 06 / 10 / 2017 Proto type written.
@@ -24,5 +23,3 @@
  * So, you need g++ option that -std=c++11 and -pthread.
  * 
  * Thank you for watching this code.
- *************************************************************/
-
